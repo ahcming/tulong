@@ -1,22 +1,55 @@
-# Compiled class file
+### Scala ###
 *.class
-
-# Log file
 *.log
 
-# BlueJ files
-*.ctxt
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
 
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
+### Intellij ###
+.idea
+*.iml
+/out/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+### Intellij Patch ###
+# modules.xml
+# .idea/misc.xml 
+# *.ipr
+
+.DS_Store
+.settings
+.project
+.classpath
+target
+/*/test-output
+bak
+testng.xml
+*.pyc
