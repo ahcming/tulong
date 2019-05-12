@@ -23,4 +23,8 @@ def _get_metric_sum():
     print("--> %s" % dps_total)
 
 if __name__ == "__main__":
-   _get_metric_sum() 
+    #_get_metric_sum() 
+   
+    sss = Person()
+    sss.set('name', 'ljx')
+    print("--> %s" % sss.name)
