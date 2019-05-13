@@ -53,3 +53,5 @@ target
 bak
 testng.xml
 *.pyc
+
+.vscode
